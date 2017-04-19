@@ -1,0 +1,43 @@
+/* Mobil */
+
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+	body {
+		background-color:red;
+	}
+
+	p {
+		font-family: Helvetica
+	}
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape) {
+	body {
+		background-color:pink;
+	}
+
+	p {
+		font-family: Verdana
+	}
+}
+
+/* PC */
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	body {
+		background-color:yellowgreen;
+	}
+
+	p {
+		font-family: Helvetica
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+	body {
+		background-color:blue;
+	}
+
+	p {
+		font-family: Verdana
+	}
+}

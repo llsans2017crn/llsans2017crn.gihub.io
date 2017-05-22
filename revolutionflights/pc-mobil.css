@@ -1,0 +1,393 @@
+/* Mobil */
+
+@media only screen and (max-width: 479px) and (orientation: portrait) {
+	body {
+		margin: 0px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+
+		
+	}
+
+	h1 {
+
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+	}
+
+	h3 {
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+		font-size: 90%;
+	}
+	p {
+		font-family: helvetica;
+	}
+
+	iframe{
+		height: 215px;
+	}
+	img{
+		width: 100%;
+		margin: auto;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	#logo {
+		height:8em;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		background-image:url(img/logo_rf-01.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:50%;
+	}
+
+	.titulos {
+		text-align: center;
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+	}
+	#barra {
+		background-color: grey;
+		overflow: hidden;
+	}
+	.botobarra {
+		width: 6em;
+		height: 4em;
+		background-color: #F2F2F2;
+		margin: 0.5em;
+		display: inline-block;
+		text-align: center;
+		padding: 0;
+		line-height:0em;
+	}
+	.botobarra:hover {
+		background-color: #c1c1c1;
+	}
+	#contingut {
+		height: auto;
+		width: 90%;
+		margin:auto;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		background-color: rgba(220, 220, 220, 0.4);
+		border-radius: 0.5em;
+		text-align: left;
+		padding: 1em;
+	}
+	#convi {
+		height: auto;
+		width: 90%;
+		margin:auto;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		border-radius: 0.5em;
+		text-align: left;
+		padding: 1em;
+	}
+	#botoup {
+		position: fixed;
+		height: 3em;
+		width: 3em;
+		border-radius: 0.5em;
+		background-color: white;
+		left: 85%;
+		top:85%;
+		z-index: 100;
+		line-height:0em;
+		text-align: center;
+	}
+	.botovi {
+		height: 18em;
+		width: 7em;
+		background-color: rgba(220, 220, 220, 0.7);
+		float: left;
+		margin:1em;
+		border-radius: 1em;
+	}
+
+	#fons {
+		position:fixed;
+		background-image:url(img/aeroport.png);
+		background-position: 0em -22em;
+		height:1000px;
+		width:100%;
+		top:0;
+		left:0;
+		right: 0;
+		bottom: 0;  
+		z-index: -100;
+	}
+}
+
+
+
+/* SMARTHPHONE HORIZONTAL */
+
+
+@media only screen and (max-height:  479px) and (orientation: landscape) {
+	body {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+
+	}
+	h1 {
+
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+	}
+	h3 {
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+		font-size: 90%;
+	}
+	p {
+		font-family: helvetica;
+	}
+	iframe{
+		height: 215px;
+	}
+	img{
+		width: 100%;
+		margin: auto;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	#logo {
+		height:6em;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		background-image:url(img/logo_rf-02.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:90%;
+	}
+	#barra {
+		background-color: grey;
+		overflow: hidden;
+	}
+	.botobarra {
+		width: 6em;
+		height: 4em;
+		background-color: #F2F2F2;
+		margin: 0.5em;
+		display: inline-block;
+		text-align: center;
+		padding: 0;
+		line-height:0em;
+	}
+	.botobarra:hover {
+		background-color: #c1c1c1;
+	}
+	#contingut {
+		height: auto;
+		width:90%;
+		margin:auto;
+		margin-top:2em;
+		margin-bottom: 2em;
+		background-color: rgba(220, 220, 220, 0.4);
+		border-radius: 0.5em;
+		text-align: left;
+		padding: 1em;
+		margin-bottom: 2em;
+
+	}
+	#convi {
+		height: auto;
+		width: 90%;
+		margin:auto;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		border-radius: 0.5em;
+		text-align: left;
+		padding: 1em;
+	}
+	#botoup {
+		position: fixed;
+		height: 3em;
+		width: 3em;
+		border-radius: 0.5em;
+		background-color: white;
+		left: 85%;
+		top:90%;
+		z-index: 100;
+		line-height:0em;
+		text-align: center;
+	}
+	.botovi {
+		height: 18em;
+		width: 7em;
+		background-color: rgba(220, 220, 220, 0.7);
+		float: left;
+		margin:1em;
+		border-radius: 1em;
+	}
+
+
+	#fons {
+		position:fixed;
+		background-image:url(img/aeroport.png);
+		background-position: 0em -22em;
+		height:1000px;
+		width:100%;
+		top:0;
+		left:0;
+		right: 0;
+		bottom: 0;  
+		z-index: -100;
+	}
+}
+
+
+/* PC */
+
+@media only screen and (min-width: 480px){
+	body {
+		margin: 0;
+		padding: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		min-height: 100%;
+		background-color: transparent;
+
+	}	
+
+	iframe {
+	}
+	h1 {
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+		text-align: center;
+	}
+	h3 {
+		font-style: bold;
+		font-family: helvetica;
+		color: #BE1621;
+	}
+	p {
+		font-family: helvetica;
+	}
+
+	iframe{
+		height:365px;
+	}
+	img{
+		width: 70%;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#fons {
+		position:fixed;
+		background-image:url(img/aeroport.png);
+		background-position: 0em -22em;
+		height:1000px;
+		width:100%;
+		top:0;
+		left:0;
+		right: 0;
+		bottom: 0;  
+		z-index: -100;
+	}
+
+	#logo {
+		height:16em;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		background-image:url(img/logo_rf-01.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:27em auto;
+	}
+	#barra {
+		background-color: grey;
+		overflow: hidden;
+	}
+	.botobarra {
+		width: 31%;
+		height: 2em;
+		background-color: #F2F2F2;
+		margin: 0.5em;
+		display: inline-block;
+		text-align: center;
+		padding: 0;
+		line-height:0em;
+	}
+	.botobarra:hover {
+		background-color: #c1c1c1;
+	}
+	#contingut {
+		height: auto;
+		width:66.6%;
+		margin:auto;
+		margin-bottom: 2em;
+		background-color: rgba(220, 220, 220, 0.4);
+		border-radius: 0.5em;
+		text-align: left;
+		padding: 1em;
+		padding-left:4em;
+		padding-right: 4em; 
+
+	}
+	#convi {
+		height: auto;
+		width:66.6%;
+		margin:auto;
+		border-radius: 0.5em;
+		padding: 1em;
+		text-align: center;
+		padding-left:4em;
+		padding-right: 4em; 
+
+	}
+	#botoup {
+		position: fixed;
+		height: 3em;
+		width: 3em;
+		border-radius: 0.5em;
+		background-color: white;
+		left: 90%;
+		top:90%;
+		z-index: 100;
+		line-height:0em;
+		text-align: center;
+	}
+	.botovi {
+		height: 18em;
+		width: 15em;
+		background-color: rgba(220, 220, 220, 0.7);
+		float: left;
+		margin-left:8em;
+		margin-bottom: 2em;
+		border-radius: 1em;
+		text-align: center;
+	}
+
+}
